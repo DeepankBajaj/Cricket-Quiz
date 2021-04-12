@@ -2,7 +2,7 @@ var rs = require("readline-sync");
 var score = 0;
 var username = rs.question("Please enter your Name:");
 
-console.log("Welcome", username + " to KBC created by Deepank Bajaj");
+console.log("Welcome", username + " to the quiz created by Deepank ");
 console.log("--------------")
 
 
@@ -26,31 +26,31 @@ function play(question, answer)
 
 var questionOne =
 {
-  question: '1. Who is the President of India? \n A. Amit Shah \n B. Pranav Mukherjee \n C. Ram nath Kovind \n D. Harsh Vardhan ',
-  answer: "C"
+  question: "\n 1.Who won the cricket world cup 2019? \n A. India \n B. England \n C. New Zealand \n D. Australia ",
+  answer: "B"
 }
 
 var questionTwo = 
 {
-  question: "2. Who is known as Big B? \n A. Ranbir kapoor \n B. Govinda \n C. Sunny Deol \n D. Amitabh Bachchan ",
+  question: "2. Who is known as Jumbo? \n A. Ishant Sharma \n B. Rahul Dravid \n C. Harbhajan Singh \n D. Anil Kumble ",
   answer:"D"
 }
 
 var questionThree = 
 {
-  question: "3. Who won the cricket world cup 2019? \n A. India \n B. England \n C. New Zealand \n D. Australia ",
-  answer: "B"
+  question: "3. Who was the Player of the series in 2019 World Cup? \n A. Kane Williamson \n B. Ben Stokes \n C. Rohit Sharma \n D. Shakib Al Hasan ",
+  answer: "A"
 }
 
 var questionFour = 
 {
-  question: "4. Which of the following cities is the capital of Haryana? \n A. Bahadurgarh \n B. Chandigarh \n C. Gurugram \n D. Faridabad ",
-  answer: "B"
+  question: "4. Who was the Player of the series in IPL 2020? \n A. Marcus Stoinis \n B. Trent Boult \n C. Jofra Archer \n D. Kagiso Rabada?  ",
+  answer: "C"
 }
 
 var questionFive = 
 {
-  question:"5. Find the Odd One Out \n A. Tomato \n B. Guava \n C. Mango \n D. Apple  ",
+  question:"5. Who won the Purple Cap in IPL 2020? \n A. Mohammad Shami \n B. Trent Boult \n C. Jofra Archer \n D. Kagiso Rabada?  ",
   answer: "D" 
 }
 
